@@ -27,7 +27,7 @@
 {"key":"PikPakShare","name":"PikPak","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/pikpakclass.a.json$$$./json/pikpakclass.a.json.db.gz"},
 {"key":"PikPakShare1","name":"PikPak1","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/pikpakclass.a1.json$$$./json/pikpakclass.a1.json.db.gz"},
 {"key":"PikPakShare18","name":"PikPak18","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/pikpakclass18.json$$$./json/pikpakclass.a.json.db.gz"},
-{"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/
+{"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/sambashare.a.txt"},
 {"key":"csp_Netflav","name":"Netflav","type":3,"api":"csp_Netflav","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60},
 {"key":"Taohuazu","name":"桃花族","type":3,"api":"csp_Taohuazu","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://thze.cc/","ext":"./lib/token.json"},
 {"key":"SeHuaTang","name":"色花糖","type":3,"api":"csp_SeHuaTang","searchable":1,"quickSearch":1,"changeable":1,"filterable":0,"timeout":60,"ext":"null$$$proxy","style":{"type":"rect","ratio":1.5},"ext":"./lib/token.json"},
