@@ -20,6 +20,13 @@
 {"key":"PikPakShare","name":"PikPak","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/pikpakclass.a.json$$$./json/pikpakclass.a.json.db.gz"},
 {"key":"PikPakShare1","name":"PikPak1","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/pikpakclass.a1.json$$$./json/pikpakclass.a1.json.db.gz"},
 {"key":"PikPakShare18","name":"PikPak18","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/pikpakclass18.json$$$./json/pikpakclass.a.json.db.gz"},
+
+  
+
+{"key":"vv001","name":"️💃女優💃","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05151.json","searchable":0,"quickSearch":0,"filterable":0},
+{"key":"vv002","name":"️👠番號👠","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05152.json","searchable":0,"quickSearch":0,"filterable":0},
+{"key":"vv003","name":"️👙主題👙","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05153.json","searchable":0,"quickSearch":0,"filterable":0},
+
 {"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/sambashare.a.txt"},
 {"key":"csp_BtSow","name":"磁力秀","type":3,"api":"csp_BtSow","timeout":60, "ext":"./lib/token.json$$$1"},
 {"key":"csp_BtSearch","name":"磁力搜","type":3,"api":"csp_BtSearch","timeout":60, "ext":"./lib/token.json$$$1"},
