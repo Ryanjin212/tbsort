@@ -167,7 +167,7 @@ proxy-groups:
     type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
+    tolerance: 1000
     proxies:
       - 1_speednode_0155
       - 2_speednode_0155
