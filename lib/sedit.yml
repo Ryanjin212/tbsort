@@ -167,7 +167,6 @@ proxy-groups:
   - ♻自动选择
   - 🔰延迟最低
   - ✅手动选择
-  - 🗺️选择地区
   - 日抛选择
   type: select
 - interval: 300
@@ -228,37 +227,6 @@ proxy-groups:
   - REJECT
   - DIRECT
   - 🚀选择代理
-  type: select
-- name: 🗺️选择地区
-  proxies:
-  - 🇯🇵日本
-  - 🇺🇸美国
-  - 🇭🇰香港
-  - 🇩🇪德国
-  type: select
-- name: 🇯🇵日本
-  proxies:
-  - 1_speednode_0155
-  - 2_speednode_0155
-  - 3_speednode_0155
-  type: select
-- name: 🇺🇸美国
-  proxies:
-  - 1_speednode_0155
-  - 2_speednode_0155
-  - 3_speednode_0155
-  type: select
-- name: 🇭🇰香港
-  proxies:
-  - 1_speednode_0155
-  - 2_speednode_0155
-  - 3_speednode_0155
-  type: select
-- name: 🇩🇪德国
-  proxies:
-  - 1_speednode_0155
-  - 2_speednode_0155
-  - 3_speednode_0155
   type: select
 rules:
 - IP-CIDR,154.7.80.158/32,⛔广告拦截
