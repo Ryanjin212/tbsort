@@ -3717,3 +3717,10 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+tcp-concurrent: true
+hosts:
+  cache.ott.ystenlive.itv.cmvideo.cn: pixman.io.ystenlive.dnsany.com
+  cache.ott.bestlive.itv.cmvideo.cn: pixman.io.bestlive.dnsany.com
+  cache.ott.wasulive.itv.cmvideo.cn: pixman.io.wasulive.dnsany.com
+  cache.ott.fifalive.itv.cmvideo.cn: pixman.io.fifalive.dnsany.com
+  cache.ott.hnbblive.itv.cmvideo.cn: pixman.io.hnbblive.dnsany.com
