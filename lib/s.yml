@@ -4,6 +4,7 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
+ipv6: true
 dns:
   enabled: true
   nameserver:
@@ -14,6 +15,7 @@ dns:
     - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
+  ipv6: false  
 proxies:
   - {name: 🇭🇰 香港|@ripaojiedian, server: mmhk01.micloud.buzz, port: 46001, client-fingerprint: chrome, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmhk01.micloud.buzz}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: aa01gg.sssyun.xyz, port: 36993, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 305ee3f1-b224-40e8-8a1c-b5f66c4ef40f, tfo: false}
