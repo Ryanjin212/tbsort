@@ -14,6 +14,16 @@ dns:
     - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
+proxy-providers:
+  ripaojiedian:
+    type: http
+    path: ./profiles/proxies/ripaojiedian.yaml
+    url: https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
 proxies:
   - {name: 🇭🇰 香港|@ripaojiedian, server: mmhk01.micloud.buzz, port: 46001, client-fingerprint: chrome, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmhk01.micloud.buzz}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: aa01gg.sssyun.xyz, port: 36993, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 305ee3f1-b224-40e8-8a1c-b5f66c4ef40f, tfo: false}
