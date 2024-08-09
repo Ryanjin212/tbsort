@@ -9,7 +9,7 @@ dns:
   fallback-filter:
     ipcidr:
     - 61.160.148.90/32
-  ipv6: false
+  ipv6: true
   listen: :1053
   nameserver:
   - 223.5.5.5
