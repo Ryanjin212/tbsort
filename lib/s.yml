@@ -170,6 +170,7 @@ proxy-groups:
     interval: 300
     tolerance: 1000
     proxies:
+      - DIRECT
       - 1_speednode_0155
       - 2_speednode_0155
       - 3_speednode_0155
