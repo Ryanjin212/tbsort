@@ -162,6 +162,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ ok选择
+      - ♻️ 日抛选择
   - name: ♻️ ok选择
     type: select
     url: http://www.gstatic.com/generate_204
