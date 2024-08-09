@@ -161,28 +161,16 @@ proxies:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
-      - 🇭🇰 香港7|@ripaojiedian
-      - 🇹🇼 台湾|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本4|@ripaojiedian
-      - 🇯🇵 日本5|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇩🇪 德国|@ripaojiedian
-      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 1_speednode_0155
+      - 2_speednode_0155
+      - 3_speednode_0155
+      - 4_speednode_0155
+      - 5_speednode_0155
+      - 6_speednode_0155
+      - 7_speednode_0155
+      - 8_speednode_0155
+      - 9_speednode_0155
+      - 10_speednode_0155
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
