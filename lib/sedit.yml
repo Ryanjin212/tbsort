@@ -187,7 +187,7 @@ proxy-groups:
   - ✅手动选择
   - 🗺️选择地区
   - 日抛选择
-  - free1999-100g/m
+  - free1999-100g
   type: select
 - interval: 300
   name: ♻自动选择
@@ -220,7 +220,7 @@ proxy-groups:
     - NoMoreWalls
   proxies:
     - DIRECT
-- name: free1999-100g/m
+- name: free1999-100g
   type: select
   url: http://www.gstatic.com/generate_204
   interval: 3600
