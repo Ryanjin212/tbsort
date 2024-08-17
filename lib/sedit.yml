@@ -205,19 +205,6 @@ proxies:
     path: "/?ed=2048"
     headers: 
       Host: linshiyoujianiptvok.yaa5i8mv.workers.dev
-- name: 10_speednode_01552
-  server: 172.64.192.62
-  port: 2052
-  type: vless
-  uuid: 1067a6a5-1932-4165-9319-87f92e1b9ec3
-  tls: false
-  udp: true
-  servername: linshiyoujianiptvok.yaa5i8mv.workers.dev
-  network: ws
-  ws-opts: 
-    path: "/?ed=2048"
-    headers: 
-      Host: linshiyoujianiptvok.yaa5i8mv.workers.dev
 - name: 10_speednode_01553
   server: 104.18.160.227
   port: 2052
@@ -322,6 +309,32 @@ proxies:
     path: "/?ed=2048"
     headers: 
       Host: linshiyoujianiptvok.yaa5i8mv.workers.dev
+- name: 1000_speednode_1
+  server: 172.67.192.62
+  port: 2052
+  type: vless
+  uuid: 1067a6a5-1932-4165-9319-87f92e1b9ec3
+  tls: false
+  udp: true
+  servername: linshiyoujianiptvok.yaa5i8mv.workers.dev
+  network: ws
+  ws-opts: 
+    path: "/?ed=2048"
+    headers: 
+      Host: linshiyoujianiptvok.yaa5i8mv.workers.dev
+- name: 1000_speednode_2
+  server: 198.41.211.235
+  port: 2052
+  type: vless
+  uuid: 1067a6a5-1932-4165-9319-87f92e1b9ec3
+  tls: false
+  udp: true
+  servername: linshiyoujianiptvok.yaa5i8mv.workers.dev
+  network: ws
+  ws-opts: 
+    path: "/?ed=2048"
+    headers: 
+      Host: linshiyoujianiptvok.yaa5i8mv.workers.dev
 proxy-groups:
 - name: 🚀选择代理
   proxies:
@@ -347,7 +360,6 @@ proxy-groups:
   - 8_speednode_0155
   - 9_speednode_0155
   - 10_speednode_0155
-  - 10_speednode_01552
   - 10_speednode_01553
   - 10_speednode_01554
   - 10_speednode_01555
