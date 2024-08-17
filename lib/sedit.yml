@@ -368,6 +368,8 @@ proxy-groups:
   - 10_speednode_01558
   - 10_speednode_01559
   - 10_speednode_015510
+  - 1000_speednode_1
+  - 1000_speednode_2
   type: select
   url: https://www.google.com/
 - name: 日抛选择
