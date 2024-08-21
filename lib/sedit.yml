@@ -348,6 +348,18 @@ proxies:
     path: "/?ed=2048"
     headers: 
       Host: linshiyoujianiptvok.yaa5i8mv.workers.dev      
+- name: okTrojan00
+  network: ws
+  password: G801Aq9DV0Sh719WOl42E80M
+  port: 8880
+  server: www.visa.com.sg
+  skip-cert-verify: false
+  sni: winter-trojanhorse.yaa5i8mv.workers.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: winter-trojanhorse.yaa5i8mv.workers.dev
+    path: "/?ed=2560"
 proxy-groups:
 - name: 🚀选择代理
   proxies:
@@ -362,6 +374,7 @@ proxy-groups:
 - interval: 300
   name: ♻自动选择
   proxies: &id001
+  - okTrojan00
   - 1_speednode_0155
   - 1_speednode_01552
   - 1_speednode_01553
