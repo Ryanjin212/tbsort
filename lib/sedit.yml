@@ -419,6 +419,7 @@ proxies:
   port: 2096
   password: G801Aq9DV0Sh719WOl42E80M
   udp: false
+  skip-cert-verify: true
   sni: winter-trojanhorse.yaa5i8mv.workers.dev
   network: ws
   ws-opts:
