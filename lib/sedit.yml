@@ -413,10 +413,10 @@ proxies:
     headers:
       Host: winter-trojanhorse.yaa5i8mv.workers.dev
 
-- name: CF_T13_www.visasoutheasteurope.com_2096
+- name: CF_T13_www.visa.com.sg_2096
   type: trojan
   server: www.visa.com.sg
-  port: 8880
+  port: 2082
   password: G801Aq9DV0Sh719WOl42E80M
   tls: false
   udp: true
