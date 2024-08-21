@@ -356,6 +356,7 @@ proxies:
   skip-cert-verify: false
   sni: winter-trojanhorse.yaa5i8mv.workers.dev
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: winter-trojanhorse.yaa5i8mv.workers.dev
