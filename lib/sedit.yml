@@ -351,7 +351,7 @@ proxies:
 - name: CF_T8_usa.visa.com_443
   type: trojan
   server: usa.visa.com
-  port: 443
+  port: 2082
   password: G801Aq9DV0Sh719WOl42E80M
   udp: false
   sni: winter-trojanhorse.yaa5i8mv.workers.dev
@@ -364,7 +364,7 @@ proxies:
 - name: CF_T9_myanmar.visa.com_8443
   type: trojan
   server: myanmar.visa.com
-  port: 8443
+  port: 2095
   password: G801Aq9DV0Sh719WOl42E80M
   udp: false
   sni: winter-trojanhorse.yaa5i8mv.workers.dev
@@ -377,7 +377,7 @@ proxies:
 - name: CF_T10_www.visa.com.tw_2053
   type: trojan
   server: www.visa.com.tw
-  port: 2053
+  port: 2086
   password: G801Aq9DV0Sh719WOl42E80M
   udp: false
   sni: winter-trojanhorse.yaa5i8mv.workers.dev
@@ -390,7 +390,7 @@ proxies:
 - name: CF_T11_www.visaeurope.ch_2083
   type: trojan
   server: www.visaeurope.ch
-  port: 2083
+  port: 2052
   password: G801Aq9DV0Sh719WOl42E80M
   udp: false
   sni: winter-trojanhorse.yaa5i8mv.workers.dev
@@ -403,7 +403,7 @@ proxies:
 - name: CF_T12_www.visa.com.br_2087
   type: trojan
   server: www.visa.com.br
-  port: 2087
+  port: 8080
   password: G801Aq9DV0Sh719WOl42E80M
   udp: false
   sni: winter-trojanhorse.yaa5i8mv.workers.dev
@@ -416,7 +416,7 @@ proxies:
 - name: CF_T13_www.visasoutheasteurope.com_2096
   type: trojan
   server: www.visasoutheasteurope.com
-  port: 2096
+  port: 8880
   password: G801Aq9DV0Sh719WOl42E80M
   tls: false
   udp: true
