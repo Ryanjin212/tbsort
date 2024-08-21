@@ -72,19 +72,6 @@
       "categories": [
         "伦理片"
       ]},
-  {
-      "key": "py_liushoushaofu",
-      "name": "🤪 留守少妇(T4_Py)",
-      "type": 4,
-      "api": "https://py.doube.eu.org/api?site=liushoushaofu",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      }
-    },
 {"name":"lbapi9乐播资源","key":"11樂播","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
       {"name":"lovedan艾旦","key":"11艾旦影视","type":1,"api":"https://lovedan.net/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"drpy_js_ss直播","name":"ss直播","type":3,"api":"./lib/drpy2.min.js","ext":"./js/ss直播.js","timeout":30},
@@ -120,50 +107,7 @@
 {"key":"奥斯卡资源网","name":"奥斯卡","type":1,"api":"https://aosikazy.com/api.php/provide/vod/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url="},
 {"key":"草帽资源","name":"草帽","type":1,"api":"https://cmzy.top/api.php/provide/vod/?ac=list","searchable":1,"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url="},
 
- {
-            "key": "heimuer",
-            "name": "黑木耳",
-            "type": 1,
-            "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "header": {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            },
-            "ext": {
-                "search": {
-                    "url": "https://json.heimuer.xyz/api.php/provide/vod/",
-                    "params": {
-                        "ac": "list",
-                        "wd": "{wd}"
-                    }
-                },
-                "detail": {
-                    "url": "https://json.heimuer.xyz/api.php/provide/vod/",
-                    "params": {
-                        "ac": "detail",
-                        "ids": "{ids}"
-                    }
-                },
-                "list": {
-                    "url": "https://json.heimuer.xyz/api.php/provide/vod/",
-                    "params": {
-                        "ac": "list",
-                        "pg": "{pg}"
-                    }
-                }
-            }
-        },
-        {
-            "key": "haiwaiba",
-            "name": "海外吧",
-            "type": 1,
-            "api": "https://hw8.live/api.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
+
   
 {"key":"wmcj8.com","name":"成人05","type":0,"api":"http://wmcj8.com/inc/sapi.php","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
 {"key":"apilj.com","name":"成人06","type":1,"api":"http://apilj.com/api.php/provide/vod/at/json/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
