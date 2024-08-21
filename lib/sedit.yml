@@ -420,7 +420,6 @@ proxies:
   password: G801Aq9DV0Sh719WOl42E80M
   tls: false
   udp: true
-  sni: winter-trojanhorse.yaa5i8mv.workers.dev
   network: ws
   ws-opts:
     path: "/?ed=2560"
