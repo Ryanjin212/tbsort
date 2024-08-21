@@ -358,9 +358,10 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
+    path: "/?ed=2560"
     headers:
       Host: winter-trojanhorse.yaa5i8mv.workers.dev
-    path: "/?ed=2560"
+   
 proxy-groups:
 - name: 🚀选择代理
   proxies:
