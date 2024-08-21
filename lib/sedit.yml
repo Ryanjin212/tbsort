@@ -348,15 +348,79 @@ proxies:
     path: "/?ed=2048"
     headers: 
       Host: linshiyoujianiptvok.yaa5i8mv.workers.dev      
-- name: okTrojan00
-  network: ws
-  password: G801Aq9DV0Sh719WOl42E80M
-  port: 8880
-  server: www.visa.com.sg
-  skip-cert-verify: false
-  sni: winter-trojanhorse.yaa5i8mv.workers.dev
+- name: CF_T8_usa.visa.com_443
   type: trojan
-  udp: true
+  server: usa.visa.com
+  port: 443
+  password: G801Aq9DV0Sh719WOl42E80M
+  udp: false
+  sni: winter-trojanhorse.yaa5i8mv.workers.dev
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: winter-trojanhorse.yaa5i8mv.workers.dev
+
+- name: CF_T9_myanmar.visa.com_8443
+  type: trojan
+  server: myanmar.visa.com
+  port: 8443
+  password: G801Aq9DV0Sh719WOl42E80M
+  udp: false
+  sni: winter-trojanhorse.yaa5i8mv.workers.dev
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: winter-trojanhorse.yaa5i8mv.workers.dev
+
+- name: CF_T10_www.visa.com.tw_2053
+  type: trojan
+  server: www.visa.com.tw
+  port: 2053
+  password: G801Aq9DV0Sh719WOl42E80M
+  udp: false
+  sni: winter-trojanhorse.yaa5i8mv.workers.dev
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: winter-trojanhorse.yaa5i8mv.workers.dev
+
+- name: CF_T11_www.visaeurope.ch_2083
+  type: trojan
+  server: www.visaeurope.ch
+  port: 2083
+  password: G801Aq9DV0Sh719WOl42E80M
+  udp: false
+  sni: winter-trojanhorse.yaa5i8mv.workers.dev
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: winter-trojanhorse.yaa5i8mv.workers.dev
+
+- name: CF_T12_www.visa.com.br_2087
+  type: trojan
+  server: www.visa.com.br
+  port: 2087
+  password: G801Aq9DV0Sh719WOl42E80M
+  udp: false
+  sni: winter-trojanhorse.yaa5i8mv.workers.dev
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: winter-trojanhorse.yaa5i8mv.workers.dev
+
+- name: CF_T13_www.visasoutheasteurope.com_2096
+  type: trojan
+  server: www.visasoutheasteurope.com
+  port: 2096
+  password: G801Aq9DV0Sh719WOl42E80M
+  udp: false
+  sni: winter-trojanhorse.yaa5i8mv.workers.dev
+  network: ws
   ws-opts:
     path: "/?ed=2560"
     headers:
@@ -376,7 +440,12 @@ proxy-groups:
 - interval: 300
   name: ♻自动选择
   proxies: &id001
-  - okTrojan00
+  - CF_T8_usa.visa.com_443
+  - CF_T9_myanmar.visa.com_8443
+  - CF_T10_www.visa.com.tw_2053
+  - CF_T11_www.visaeurope.ch_2083
+  - CF_T12_www.visa.com.br_2087
+  - CF_T13_www.visasoutheasteurope.com_2096
   - 1_speednode_0155
   - 1_speednode_01552
   - 1_speednode_01553
