@@ -347,7 +347,21 @@ proxies:
   ws-opts: 
     path: "/?ed=2048"
     headers: 
-      Host: linshiyoujianiptvok.yaa5i8mv.workers.dev       
+      Host: linshiyoujianiptvok.yaa5i8mv.workers.dev      
+- type: vless
+  name: jpvlss.tro-horse.us.kg
+  server: 43.153.181.217
+  port: 443
+  uuid: 0e612e6f-8caf-4089-a154-3339986230ec
+  network: ws
+  tls: true
+  udp: false
+  sni: jpvlss.tro-horse.us.kg
+  client-fingerprint: chrome
+  ws-opts:
+    path: "/?ed=2048"
+    headers:
+      host: jpvlss.tro-horse.us.kg
 proxy-groups:
 - name: 🚀选择代理
   proxies:
@@ -456,9 +470,7 @@ proxy-groups:
   type: select
 - name: 🇯🇵日本
   proxies:
-  - 1_speednode_0155
-  - 2_speednode_0155
-  - 3_speednode_0155
+  - jpvlss.tro-horse.us.kg
   type: select
 - name: 🇺🇸美国
   proxies:
