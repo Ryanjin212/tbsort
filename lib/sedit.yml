@@ -7280,7 +7280,7 @@ rules:
 - DOMAIN-SUFFIX,mytvsuper.com,🚀选择代理
 - DOMAIN-SUFFIX,thetvapp.to,🚀选择代理
 - DOMAIN-SUFFIX,cdn.hinet.net,🚀选择代理
-
+- IP-CIDR,1.245.74.5,DIRECT,no-resolve
 - GEOIP,CN,❓ 疑似国内
 - DOMAIN-SUFFIX,gvt1.com,🐟漏网之鱼
 - MATCH,🐟漏网之鱼
