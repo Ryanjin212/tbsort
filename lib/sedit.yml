@@ -24,7 +24,7 @@ proxy-providers:
   OkTrojan:
     type: http
     path: ./profiles/proxies/OkTrojan.yaml
-    url: https://thorse.tro-horse.us.kg/asdfasdfajstdfasewtytyjrweliligfnf/pcl
+    url: https://winter-trojanhorse.yaa5i8mv.workers.dev/asdfasdfajstdfasewtytyjrweliligfnf/cl
     interval: 3600
     health-check:
       enable: true
