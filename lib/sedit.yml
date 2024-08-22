@@ -21,10 +21,10 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxy-providers:
-  OkVmess:
+  OkTrojan:
     type: http
-    path: ./profiles/proxies/OkVmess.yaml
-    url: https://summ-trohorse.yaa5i8mv.workers.dev/clash1345345234
+    path: ./profiles/proxies/OkTrojan.yaml
+    url: https://thorse.tro-horse.us.kg/asdfasdfajstdfasewtytyjrweliligfnf/pcl
     interval: 3600
     health-check:
       enable: true
@@ -347,86 +347,7 @@ proxies:
   ws-opts: 
     path: "/?ed=2048"
     headers: 
-      Host: linshiyoujianiptvok.yaa5i8mv.workers.dev      
-- name: CF_T8_usa.visa.com_443
-  type: trojan
-  server: usa.visa.com
-  port: 2082
-  password: G801Aq9DV0Sh719WOl42E80M
-  udp: false
-  sni: winter-trojanhorse.yaa5i8mv.workers.dev
-  network: ws
-  ws-opts:
-    path: "/?ed=2560"
-    headers:
-      Host: winter-trojanhorse.yaa5i8mv.workers.dev
-
-- name: CF_T9_myanmar.visa.com_8443
-  type: trojan
-  server: myanmar.visa.com
-  port: 2095
-  password: G801Aq9DV0Sh719WOl42E80M
-  udp: false
-  sni: winter-trojanhorse.yaa5i8mv.workers.dev
-  network: ws
-  ws-opts:
-    path: "/?ed=2560"
-    headers:
-      Host: winter-trojanhorse.yaa5i8mv.workers.dev
-
-- name: CF_T10_www.visa.com.tw_2053
-  type: trojan
-  server: www.visa.com.tw
-  port: 2086
-  password: G801Aq9DV0Sh719WOl42E80M
-  udp: false
-  sni: winter-trojanhorse.yaa5i8mv.workers.dev
-  network: ws
-  ws-opts:
-    path: "/?ed=2560"
-    headers:
-      Host: winter-trojanhorse.yaa5i8mv.workers.dev
-
-- name: CF_T11_www.visaeurope.ch_2083
-  type: trojan
-  server: www.visaeurope.ch
-  port: 2052
-  password: G801Aq9DV0Sh719WOl42E80M
-  udp: false
-  sni: winter-trojanhorse.yaa5i8mv.workers.dev
-  network: ws
-  ws-opts:
-    path: "/?ed=2560"
-    headers:
-      Host: winter-trojanhorse.yaa5i8mv.workers.dev
-
-- name: CF_T12_www.visa.com.br_2087
-  type: trojan
-  server: www.visa.com.br
-  port: 8080
-  password: G801Aq9DV0Sh719WOl42E80M
-  udp: false
-  sni: winter-trojanhorse.yaa5i8mv.workers.dev
-  network: ws
-  ws-opts:
-    path: "/?ed=2560"
-    headers:
-      Host: winter-trojanhorse.yaa5i8mv.workers.dev
-
-- name: CF_T13_www.visa.com.sg_2096
-  type: trojan
-  server: www.visa.com.sg
-  port: 8880
-  password: G801Aq9DV0Sh719WOl42E80M
-  sni: winter-trojanhorse.yaa5i8mv.workers.dev
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: "/?ed=2560"
-    headers:
-      Host: winter-trojanhorse.yaa5i8mv.workers.dev
-   
+      Host: linshiyoujianiptvok.yaa5i8mv.workers.dev       
 proxy-groups:
 - name: 🚀选择代理
   proxies:
@@ -436,17 +357,11 @@ proxy-groups:
   - 🗺️选择地区
   - 日抛选择
   - free1999-100g
-  - OkVmess-proxy
+  - Ok-Trojan
   type: select
 - interval: 300
   name: ♻自动选择
   proxies: &id001
-  - CF_T8_usa.visa.com_443
-  - CF_T9_myanmar.visa.com_8443
-  - CF_T10_www.visa.com.tw_2053
-  - CF_T11_www.visaeurope.ch_2083
-  - CF_T12_www.visa.com.br_2087
-  - CF_T13_www.visa.com.sg_2096
   - 1_speednode_0155
   - 1_speednode_01552
   - 1_speednode_01553
@@ -480,12 +395,12 @@ proxy-groups:
     - ripaojiedian
   proxies:
     - DIRECT
-- name: OkVmess-proxy
+- name: Ok-Trojan
   type: select
   url: http://www.gstatic.com/generate_204
   interval: 3600
   use:
-    - OkVmess
+    - OkTrojan
   proxies:
     - DIRECT
 - name: free1999-100g
