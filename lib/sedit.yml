@@ -399,6 +399,7 @@ proxy-groups:
   - 1000_speednode_1
   - 1000_speednode_2
   - 1000_speednode_3
+  - jpvlss.tro-horse.us.kg
   type: select
   url: https://www.google.com/
 - name: 日抛选择
