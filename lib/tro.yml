@@ -108,7 +108,7 @@ proxies:
 
 proxy-groups:
 - name: 负载均衡
-  type: load-balance
+  type: select
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
@@ -120,7 +120,7 @@ proxy-groups:
     - CF_T13_www.visasoutheasteurope.com_2096
 
 - name: 自动选择
-  type: url-test
+  type: select
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
