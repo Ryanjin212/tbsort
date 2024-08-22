@@ -21,10 +21,10 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxy-providers:
-  NoMoreWalls:
+  OkVmess:
     type: http
-    path: ./profiles/proxies/NoMoreWalls.yaml
-    url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml
+    path: ./profiles/proxies/OkVmess.yaml
+    url: https://summ-trohorse.yaa5i8mv.workers.dev/clash1345345234
     interval: 3600
     health-check:
       enable: true
@@ -436,7 +436,7 @@ proxy-groups:
   - 🗺️选择地区
   - 日抛选择
   - free1999-100g
-  - NoMoreWalls-proxy
+  - OkVmess-proxy
   type: select
 - interval: 300
   name: ♻自动选择
@@ -480,12 +480,12 @@ proxy-groups:
     - ripaojiedian
   proxies:
     - DIRECT
-- name: NoMoreWalls-proxy
+- name: OkVmess-proxy
   type: select
   url: http://www.gstatic.com/generate_204
   interval: 3600
   use:
-    - NoMoreWalls
+    - OkVmess
   proxies:
     - DIRECT
 - name: free1999-100g
