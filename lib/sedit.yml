@@ -373,6 +373,19 @@ proxies:
   udp: false
   sni: thorse.tro-horse.us.kg                              
   skip-cert-verify: false
+- name: trojan-tls   
+  server: 59.124.90.154
+  port: 32495
+  client-fingerprint: chrome
+  type: trojan
+  password: moist
+  sni: trojan.freenods.sbs
+  skip-cert-verify: false
+  network: ws
+    ws-opts:
+    path: "/?ed=2560"
+    headers:
+      host: trojan.freenods.sbs 
 proxy-groups:
 - name: 🚀选择代理
   proxies:
