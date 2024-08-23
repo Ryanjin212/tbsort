@@ -350,14 +350,14 @@ proxies:
       Host: linshiyoujianiptvok.yaa5i8mv.workers.dev      
 - type: vless
   name: jpvlss.tro-horse.us.kg
-  server: 43.153.181.217
-  port: 443
+  server: 104.17.190.26
+  port: 8443
   uuid: 0e612e6f-8caf-4089-a154-3339986230ec
   network: ws
   tls: true
   udp: false
   sni: jpvlss.tro-horse.us.kg
-  client-fingerprint: chrome
+  client-fingerprint: randomized
   ws-opts:
     path: "/?ed=2048"
     headers:
