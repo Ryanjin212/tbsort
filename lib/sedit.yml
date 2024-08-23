@@ -24,7 +24,7 @@ proxy-providers:
   OkTrojan:
     type: http
     path: ./profiles/proxies/OkTrojan.yaml
-    url: https://winter-trojanhorse.yaa5i8mv.workers.dev/asdfasdfajstdfasewtytyjrweliligfnf/cl
+    url: https://thorse.tro-horse.us.kg/asdfasdfajstdfasewtytyjrweliligfnf/pcl
     interval: 3600
     health-check:
       enable: true
@@ -372,11 +372,7 @@ proxies:
   tls: true
   udp: false
   sni: thorse.tro-horse.us.kg                              
-  alpn:
-    - h2
-    - http/1.1
   skip-cert-verify: false
-
 proxy-groups:
 - name: 🚀选择代理
   proxies:
