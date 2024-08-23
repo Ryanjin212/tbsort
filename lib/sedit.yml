@@ -401,6 +401,7 @@ proxy-groups:
   name: ♻自动选择
   proxies: &id001
   - trojan-tcp-tls
+  - trojan-tls 
   - 1_speednode_0155
   - 1_speednode_01552
   - 1_speednode_01553
