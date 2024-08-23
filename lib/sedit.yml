@@ -382,7 +382,7 @@ proxies:
   sni: trojan.freenods.sbs
   skip-cert-verify: false
   network: ws
-    ws-opts:
+  ws-opts:
     path: "/?ed=2560"
     headers:
       host: trojan.freenods.sbs 
