@@ -368,7 +368,7 @@ proxies:
   port: 2096                                     
   password: asdfasdfajstdfasewtytyjrweliligfnf                              
   client-fingerprint: chrome
-  etwork: ws
+  network: ws
   tls: true
   udp: false
   sni: thorse.tro-horse.us.kg                              
