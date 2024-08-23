@@ -362,6 +362,21 @@ proxies:
     path: "/?ed=2048"
     headers:
       host: jpvlss.tro-horse.us.kg
+- name: trojan-tcp-tls                           
+  type: trojan
+  server: 104.17.20.191                            
+  port: 2096                                     
+  password: asdfasdfajstdfasewtytyjrweliligfnf                              
+  client-fingerprint: chrome
+  etwork: ws
+  tls: true
+  udp: false
+  sni: thorse.tro-horse.us.kg                              
+  alpn:
+    - h2
+    - http/1.1
+  skip-cert-verify: false
+
 proxy-groups:
 - name: 🚀选择代理
   proxies:
@@ -376,6 +391,7 @@ proxy-groups:
 - interval: 300
   name: ♻自动选择
   proxies: &id001
+  - trojan-tcp-tls
   - 1_speednode_0155
   - 1_speednode_01552
   - 1_speednode_01553
