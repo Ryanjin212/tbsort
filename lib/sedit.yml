@@ -60,9 +60,10 @@ proxies:
   tls: false
   uuid: 6bf98f1b-9947-4b27-bcbe-43c6fd47adec
   ws-opts:
+    path: "/6bf98f1b"
     headers:
       Host: wodndereservideyibaostarhuiqu.com
-    path: "/6bf98f1b"
+    
 - name: 1_speednode_0155
   server: 104.19.192.80
   port: 2052
