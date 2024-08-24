@@ -405,6 +405,7 @@ proxy-groups:
   proxies: &id001
   - 0|VMESS-GCORE
   - trojan-tls 
+  - 0|VMESS-GCORE
   - 1_speednode_0155
   - 1_speednode_01552
   - 1_speednode_01553
