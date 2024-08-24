@@ -403,6 +403,7 @@ proxy-groups:
 - interval: 300
   name: ♻自动选择
   proxies: &id001
+  - 0|VMESS-GCORE
   - trojan-tls 
   - 1_speednode_0155
   - 1_speednode_01552
