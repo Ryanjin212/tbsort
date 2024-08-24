@@ -52,8 +52,6 @@ proxies:
 - name: 0|VMESS-GCORE
   alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
   network: ws
   port: 80
   server: 92.223.112.62
