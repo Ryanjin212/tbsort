@@ -7,7 +7,18 @@
 {"name":"atsushi","type":0,"url":"https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u"},
 {"name":"小武哥","type":0,"url":"https://qu.ax/PEHy.txt"},
 {"name":"AV","type":0,"url":"./livex.m3u"},
-{"name":"直播","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/XX.m3u"}
+{"name":"直播","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/XX.m3u"}  , {
+            "name": "安博",
+            "url": "https://tang.hz.cz/zb/anbo?token=81bda97c",
+            "ua": "okhttp/4.12.0"
+        },
+        {
+            "name": "ETH(JS)",
+            "api": "https://tang.hz.cz/js/ethtv.js",
+            "type": 3,
+            "ua": "okhttp/4.12.0",
+            "ext": "81bda97c"
+        }
 ],
 "wallpaper":"https://liu.chuqiuyu.workers.dev",
 "sites":[
@@ -106,6 +117,37 @@
 {"key":"玉兔资源","name":"玉兔资源","type":0,"api":"https://apiyutu.com/api.php/provide/vod/at/xml/","searchable":1,"style":{"type":"rect","ratio":1.333},"quickSearch":1},
 {"key":"奥斯卡资源网","name":"奥斯卡","type":1,"api":"https://aosikazy.com/api.php/provide/vod/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url="},
 {"key":"草帽资源","name":"草帽","type":1,"api":"https://cmzy.top/api.php/provide/vod/?ac=list","searchable":1,"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url="},
+ {
+            "key": "T4-heimuer",
+            "name": "黑木耳(T4)",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/hme?token=81bda97c",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "T4-欧乐",
+            "name": "欧乐(T4)",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/olelive?token=81bda97c",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "T4-安博",
+            "name": "安博(T4)",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/ub18?token=81bda97c",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        }
+    ,
 
 
   
