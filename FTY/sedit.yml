@@ -306,7 +306,7 @@ proxies:
   client-fingerprint: random
   network: ws
   tls: true
-  udp: true
+  udp: false
   sni: p.asrnoor.ir                           
   skip-cert-verify: true
   ws-opts:
