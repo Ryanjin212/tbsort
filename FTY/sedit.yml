@@ -313,7 +313,6 @@ proxies:
     path: "/tr?ed=2560"
     headers:
       Host: p.asrnoor.ir
-
 - name: 1|trojan-tls                           
   type: trojan
   server: bpb.yingtu.us.kg                            
@@ -329,8 +328,7 @@ proxies:
     path: "/tr?ed=2560"
     headers:
       Host: bpb.yingtu.us.kg
-
-  - name: 2|trojan-tls                           
+- name: 2|trojan-tls                           
   type: trojan
   server: bpb.rusifeng.dynv6.net                            
   port: 443                                     
