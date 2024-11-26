@@ -309,6 +309,10 @@ proxies:
   udp: true
   sni: p.asrnoor.ir                           
   skip-cert-verify: true
+  ws-opts:
+    path: "/tr?ed=2560"
+    headers:
+      Host: p.asrnoor.ir
   
 proxy-groups:
 - name: 选择代理
