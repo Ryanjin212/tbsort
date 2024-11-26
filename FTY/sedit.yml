@@ -373,8 +373,8 @@ proxy-groups:
   - 4|VMESS-GCORE-10s
   - 5|VMESS-GCORE-10s
   - 0|trojan-tls
-  - 1|trojan-tls 
-  - 2|trojan-tls 
+  - 1|trojan-tls
+  - 2|trojan-tls
   - 0|VLESS-CF
   - 1|VLESS-CF
   - 2|VLESS-CF
