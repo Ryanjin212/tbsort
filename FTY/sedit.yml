@@ -298,21 +298,7 @@ proxies:
     headers: 
       Host: sweet-cottoncandy.bitnd7ew.workers.dev       
 
-- name: 0|trojan-tls                           
-  type: trojan
-  server: p.asrnoor.ir                            
-  port: 443                                     
-  password: bpb-trojan                            
-  client-fingerprint: random
-  network: ws
-  tls: true
-  udp: true
-  sni: p.asrnoor.ir                           
-  skip-cert-verify: true
-  ws-opts:
-    path: "/tr?ed=2560"
-    headers:
-      Host: p.asrnoor.ir
+
 - name: 1|trojan-tls                           
   type: trojan
   server: bpb.yingtu.us.kg                            
@@ -370,7 +356,6 @@ proxy-groups:
   - 3|VMESS-GCORE-10s
   - 4|VMESS-GCORE-10s
   - 5|VMESS-GCORE-10s
-  - 0|trojan-tls
   - 1|trojan-tls
   - 2|trojan-tls
   - 0|VLESS-CF
