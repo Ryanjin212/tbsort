@@ -40,7 +40,7 @@
 {"key":"vv001","name":"️女優","type":4,"api":"./lib/00title05151.json","searchable":0,"quickSearch":0,"filterable":0},
 {"key":"vv002","name":"️番號","type":4,"api":"./lib/00title05152.json","searchable":0,"quickSearch":0,"filterable":0},
 {"key":"vv003","name":"️主題","type":4,"api":"./lib/00title05153.json","searchable":0,"quickSearch":0,"filterable":0},
-{"name":"91md麻豆視頻","key":"1191md.me","type":1,"api":"http://91md.me/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+
 {"name":"91md91麻豆","key":"1191麻豆","type":1,"api":"https://91md.me/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 {"name":"91md91麻豆","key":"1191麻豆2","type":1,"api":"https://91md.me/api.php/provide/vod/at/json","searchable":1,"quickSearch":1,"filterable":1},
 {"name":"91md","key":"1191md","type":1,"api":"https://91md.me/api.php/provide/vod/from/mdm3u8/","searchable":1,"quickSearch":1,"filterable":1},
