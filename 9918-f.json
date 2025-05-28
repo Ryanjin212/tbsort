@@ -92,7 +92,7 @@
     "order": "E",
     "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/netflav.js",
     "type": 100
-  }
+    },
 {"name":"91md91麻豆","key":"1191麻豆","type":1,"api":"https://91md.me/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 {"name":"91md91麻豆","key":"1191麻豆2","type":1,"api":"https://91md.me/api.php/provide/vod/at/json","searchable":1,"quickSearch":1,"filterable":1},
 {"name":"91md","key":"1191md","type":1,"api":"https://91md.me/api.php/provide/vod/from/mdm3u8/","searchable":1,"quickSearch":1,"filterable":1},
