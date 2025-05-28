@@ -37,7 +37,56 @@
 {"key":"vv001","name":"️💃女優💃","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05151.json","searchable":0,"quickSearch":0,"filterable":0},
 {"key":"vv002","name":"️👠番號👠","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05152.json","searchable":0,"quickSearch":0,"filterable":0},
 {"key":"vv003","name":"️👙主題👙","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05153.json","searchable":0,"quickSearch":0,"filterable":0},
-
+{"key":"vv001","name":"️女優","type":4,"api":"./lib/00title05151.json","searchable":0,"quickSearch":0,"filterable":0},
+{"key":"vv002","name":"️番號","type":4,"api":"./lib/00title05152.json","searchable":0,"quickSearch":0,"filterable":0},
+{"key":"vv003","name":"️主題","type":4,"api":"./lib/00title05153.json","searchable":0,"quickSearch":0,"filterable":0},
+視頻","key":"1191md.me","type":1,"api":"http://91md.me/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+{"name":"91md91麻豆","key":"1191麻豆","type":1,"api":"https://91md.me/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+{"name":"91md91麻豆","key":"1191麻豆2","type":1,"api":"https://91md.me/api.php/provide/vod/at/json","searchable":1,"quickSearch":1,"filterable":1},
+{"name":"91md","key":"1191md","type":1,"api":"https://91md.me/api.php/provide/vod/from/mdm3u8/","searchable":1,"quickSearch":1,"filterable":1},
+{
+            "key": "姐姐",
+            "name": "玩偶姐姐|XBPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "timeout":60,
+            "ext": {
+                    "直接播放":"1",
+                    "图片": "data-src=\"&&\"",
+                    "分类url": "https://hongkongdollvideo.com/{cateId}/{catePg}.html",
+                    "分类": "麻豆$麻豆传媒#天美$天美传媒#91$91制片厂#蜜桃$蜜桃传媒#香港$Hongkong Doll#皇家$皇家华人#精东$精东影业#乐播$乐播传媒#成人$成人头条#乌鸦$乌鸦传媒#兔子$兔子先生#杏吧$杏吧原创#mini$mini传媒#大象$大象传媒#开心鬼$>开心鬼传媒#pass$PsychoPorn#糖心$糖心Vlog",
+                    "强制嗅探词": "index.m3u8",
+                    "页面代理": "127.0.0.1:10072"
+            }
+    },
+{
+      "key": "玩偶",
+      "name": "玩偶",
+      "type": 3,
+      "api": "csp_Doll",
+      "searchable": 1,
+      "playerType": 1,
+      "timeout":60,
+      "style": {
+        "type": "rect",
+        "ratio": 1.309
+      },
+      "ext": "127.0.0.1:10072"
+    },
+		{
+            "key": "MissAV",
+            "name": "MissAV",
+            "type": 3,
+            "api": "csp_Miss",
+            "searchable": 1,
+            "ext": "https://missav.ai",
+            "style": {
+                "type": "rect",
+                "ratio": 1.777
+            }
+        },
+{"key":"Jable","name":"Jable","type":3,"api":"csp_Jable","searchable":1,"recordable":0,"timeout":60,"style":{"type":"rect","ratio":1.77}},
 {"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/sambashare.a.txt"},
 {"key":"csp_BtSow","name":"磁力秀","type":3,"api":"csp_BtSow","timeout":60, "ext":"./lib/token.json$$$1"},
 {"key":"csp_BtSearch","name":"磁力搜","type":3,"api":"csp_BtSearch","timeout":60, "ext":"./lib/token.json$$$1"},
