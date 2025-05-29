@@ -41,19 +41,8 @@
 {"key":"vv002","name":"️番號","type":4,"api":"./lib/00title05152.json","searchable":0,"quickSearch":0,"filterable":0},
 {"key":"vv003","name":"️主題","type":4,"api":"./lib/00title05153.json","searchable":0,"quickSearch":0,"filterable":0},
 
-		{
-            "key": "Madouclub",
-            "name": "Madouclub",
-            "type": 3,
-            "api": "./js/madouclub.js",
-            "searchable": 1,
-            "ext": "https://missav.ai",
-            "style": {
-                "type": "rect",
-                "ratio": 1.777
-            }
-        },
 
+{"key":"Madouclub","name":"Madouclub","type":3,"api":"./lib/drpy2.min.js","ext":"./js/madouclub.js"},
 
 	
 {"name":"91md91麻豆","key":"1191麻豆","type":1,"api":"https://91md.me/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
