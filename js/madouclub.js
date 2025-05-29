@@ -13,7 +13,7 @@ var rule = {
     limit:24,
     play_parse:true,
     lazy:'',
-    一级:'.excerpts-wrapper&&div;h2&&Text;img&&data-src;.absolute.bottom-1&&Text;a&&href',
+    一级:'.excerpts-wrapper&&article;h2&&Text;img&&data-src;.absolute.bottom-1&&Text;a&&href',
     二级:'*',
 	搜索:'.excerpts-wrapper&&div;h2&&Text;img&&data-src;.absolute.bottom-1&&Text;a&&href',
 	searchable:1,//是否启用全局搜索,
