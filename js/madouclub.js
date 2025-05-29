@@ -1,6 +1,7 @@
 var rule = {
     title:'Madouclub',
     host:'https://madou.club',
+	homeUrl:'/category/fyclass',
 	searchUrl:'/?s=**',
     url:'/category/fyclass/page/fypage',
     headers:{
