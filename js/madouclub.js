@@ -5,7 +5,7 @@ var rule = {
 	searchUrl:'/?s=**',
     url:'/category/fyclass/page/fypage',
     headers:{
-        'User-Agent':'MOBILE_UA'
+        'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'
     },
     timeout:5000,
     class_name:'麻豆传媒&麻豆番外篇&麻豆花絮&hongkongdoll&psychoporntw&果冻传媒&天美传媒&皇家华人&兔子先生',//静态分类名称拼接
@@ -13,7 +13,7 @@ var rule = {
     limit:5,
     play_parse:true,
     lazy:'',
-    一级:'.excerpts-wrapper&&a;article h2&&Text;img&&data-src;.absolute.bottom-1&&Text;a&&href',
+    一级:'.excerpts-wrapper&&article;h2&&Text;img&&data-src;.absolute.bottom-1&&Text;a&&href',
     二级:'*',
 	搜索:'.grid.grid-cols-2 div&&a;h2&&Text;.lozad.w-full&&data-src;.absolute.bottom-1&&Text;a&&href',
 	searchable:1,//是否启用全局搜索,
