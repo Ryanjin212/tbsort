@@ -5,7 +5,7 @@ var rule = {
 	searchUrl:'/?s=**',
     url:'/category/fyclass/page/fypage',
     headers:{
-         "User-Agent":"MOBILE_UA",
+         'User-Agent':'MOBILE_UA',
 	 'referer':'https://madou.club/'
     },
     timeout:5000,
