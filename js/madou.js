@@ -7,10 +7,10 @@
 //@instance:madou20240626
 //@isAV:1
 //@order: E
-import { } from '../js/uzVideo.js'
-import { } from '../js/uzHome.js'
-import { } from '../js/uz3lib.js'
-import { } from '../js/uzUtils.js'
+import { } from './uzVideo.js'
+import { } from './uzHome.js'
+import { } from './uz3lib.js'
+import { } from './uzUtils.js'
 // ignore
 
 class madouClass extends WebApiBase {
@@ -256,4 +256,4 @@ class madouClass extends WebApiBase {
         return str
     }
 }
-var madou20240626 = new madouClass()
+
