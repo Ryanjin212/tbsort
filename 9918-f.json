@@ -46,9 +46,8 @@
             "key": "「禁」 麻豆",
             "name": "「禁」 麻豆",
             "type": 3,
-            "api": "csp_Miss",
+            "api": "./js/madou.js",
             "searchable": 1,
-            "ext": "./js/madou.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.777
