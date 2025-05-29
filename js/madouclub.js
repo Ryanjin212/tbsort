@@ -7,8 +7,8 @@ var rule = {
         'User-Agent':'MOBILE_UA'
     },
     timeout:5000,
-    class_name:'麻豆传媒&麻豆番外篇&麻豆花絮&hongkongdoll&91制片厂&果冻传媒&天美传媒&皇家华人&兔子先生&麻豆导演系列&大象传媒&猫爪影像',//静态分类名称拼接
-    class_url:'麻豆传媒&麻豆番外篇&麻豆花絮&hongkongdoll&91制片厂&果冻传媒&天美传媒&皇家华人&兔子先生&麻豆导演系列&大象传媒&猫爪影像',//静态分类标识拼接
+    class_name:'麻豆传媒&麻豆番外篇&麻豆花絮&hongkongdoll&91制片厂&果冻传媒&天美传媒&皇家华人&兔子先生',//静态分类名称拼接
+    class_url:'麻豆传媒&麻豆番外篇&麻豆花絮&hongkongdoll&91制片厂&果冻传媒&天美传媒&皇家华人&兔子先生',//静态分类标识拼接
     limit:5,
     play_parse:true,
     lazy:'',
