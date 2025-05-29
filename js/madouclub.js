@@ -5,7 +5,7 @@ var rule = {
 	searchUrl:'/?s=**',
     url:'/category/fyclass/page/fypage',
     headers:{
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'
+       "User-Agent":"MOBILE_UA"
     },
     timeout:5000,
     class_name:'麻豆传媒&麻豆番外篇&麻豆花絮&hongkongdoll&psychoporntw&果冻传媒&天美传媒&皇家华人&兔子先生',//静态分类名称拼接
