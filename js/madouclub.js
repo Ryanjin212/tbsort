@@ -2,6 +2,7 @@ var rule = {
     title:'麻豆社',
     host:'https://madou.club',
     url:'/category/fyclass/page/fypage',
+	homeUrl:'/category/fyclass',
     headers:{
         'User-Agent':'MOBILE_UA'
     },
