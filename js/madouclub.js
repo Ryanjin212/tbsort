@@ -1,11 +1,9 @@
 var rule = {
     title:'麻豆社',
     host:'https://madou.club',
-	homeUrl:'/category/fyclass',
-	searchUrl:'/?s=**',
     url:'/category/fyclass/page/fypage',
     headers:{
-         'User-Agent':'MOBILE_UA'
+        'User-Agent':'MOBILE_UA'
     },
     timeout:5000,
     class_name:'麻豆传媒&麻豆番外篇&麻豆花絮&hongkongdoll&psychoporntw&果冻传媒&天美传媒&皇家华人&兔子先生&点赞排行&7天热门&30天热门',//静态分类名称拼接
