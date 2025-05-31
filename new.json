@@ -61,7 +61,7 @@
 
 {"key":"Hanime","name":"Hanime","type":3,"api":"csp_Hanime","searchable":1,"recordable":0,"style":{"type":"rect","ratio":0.68}},
 {"key": "Hanime1","name": "🔞Hanime1","type": 3,"api": "csp_Hanime","searchable": 1,"filterable": 1,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"},
-{"key": "Hanime","name": "🔞Hanime","type": 3,"api": "csp_Hanime","searchable": 1,"filterable": 1,"jar":"https://d.kstore.space/download/8415/Tvbox/jar/custom_spider%20%EF%BC%88papa-Hanme%EF%BC%89.jar"},
+{"key": "Hanime2","name": "🔞Hanime2","type": 3,"api": "csp_Hanime","searchable": 1,"filterable": 1,"jar":"https://d.kstore.space/download/8415/Tvbox/jar/custom_spider%20%EF%BC%88papa-Hanme%EF%BC%89.jar"},
      {
       "key": "量子",
       "name": "量子",
