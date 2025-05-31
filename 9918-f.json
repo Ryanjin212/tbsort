@@ -70,31 +70,12 @@
             }
 	 },
 
-	{
-            "key": "MissAV2",
-            "name": "MissAV2",
-            "type": 3,
-            "api": "csp_Miss",
-            "searchable": 1,
-            "ext": "https://missav.ai",
-            "style": {
+{"key":"drpy_js_Missav","name":"MissAV","type":3,"api":"./lib/drpy2.min.js","ext":"./js/Missav.js","style": {
                 "type": "rect",
                 "ratio": 1.777
             }
         },
-		
-		{"spider":"./jar/Newpg.jar",
-            "key": "MissAV",
-            "name": "MissAV",
-            "type": 3,
-            "api": "csp_Miss",
-            "searchable": 1,
-            "ext": "https://missav.ai",
-            "style": {
-                "type": "rect",
-                "ratio": 1.777
-            }
-        },
+	
 {"key":"Jable","name":"Jable","type":3,"api":"csp_Jable","searchable":1,"recordable":0,"timeout":60,"style":{"type":"rect","ratio":1.77}},
 {"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/sambashare.a.txt"},
 {"key":"csp_BtSow","name":"磁力秀","type":3,"api":"csp_BtSow","timeout":60, "ext":"./lib/token.json$$$1"},
