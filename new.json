@@ -1,0 +1,95 @@
+
+{
+"spider":"./jar/pg.jar;md5;988ca838860b1f359a048e2b177cd8a0",
+"logo":"https://cdn.pixabay.com/photo/2020/08/09/11/43/woman-5475306_1280.jpg",
+"lives":[{"name":"初秋语","type":0,"url":"./listx.txt"},
+{"name":"糖意","type":0,"url":"https://wp.weikete.cc/down.php/c3eecc14547f5e1e468718148c9f762f.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","pass":true},
+{"name":"YanG","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/Adult.m3u"},
+{"name":"atsushi","type":0,"url":"https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u"},
+{"name":"小武哥","type":0,"url":"https://qu.ax/PEHy.txt"},
+{"name":"AV","type":0,"url":"./livex.m3u"},
+{"name":"直播","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/XX.m3u"}  , {
+            "name": "安博",
+            "url": "https://tang.hz.cz/zb/anbo?token=81bda97c",
+            "ua": "okhttp/4.12.0"
+        },
+        {
+            "name": "ETH(JS)",
+            "api": "https://tang.hz.cz/js/ethtv.js",
+            "type": 3,
+            "ua": "okhttp/4.12.0",
+            "ext": "81bda97c"
+		
+        }
+],
+"wallpaper":"https://liu.chuqiuyu.workers.dev",
+"sites":[
+{"key":"lf_js_search","name":"搜索","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./lib/lf_search3_min.js","indexs":1,"ext":"18+"},
+{"key":"lf_js_p2p","name":"磁力","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_p2p2_min.js","ext":"18+","timeout":60},
+{"key":"lf_js_lf_live","name":"直播","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live1.txt"},
+{"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.5},"ext":"./lib/token.json"},
+  
+
+{"key":"vv001","name":"️💃女優💃","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05151.json","searchable":0,"quickSearch":0,"filterable":0},
+{"key":"vv002","name":"️👠番號👠","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05152.json","searchable":0,"quickSearch":0,"filterable":0},
+{"key":"vv003","name":"️👙主題👙","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05153.json","searchable":0,"quickSearch":0,"filterable":0},
+{"key":"vv001","name":"️女優","type":4,"api":"./lib/00title05151.json","searchable":0,"quickSearch":0,"filterable":0},
+{"key":"vv002","name":"️番號","type":4,"api":"./lib/00title05152.json","searchable":0,"quickSearch":0,"filterable":0},
+{"key":"vv003","name":"️主題","type":4,"api":"./lib/00title05153.json","searchable":0,"quickSearch":0,"filterable":0},
+
+
+{"key":"麻豆社","name":"麻豆社","type":3,"api":"./lib/drpy2.min.js","ext":"./js/madouclub.js","style": {
+                "type": "rect",
+                "ratio": 1.777
+            }
+        },
+{"key":"drpy_js_朱古力","name":"朱古力","type":3,"api":"./lib/drpy2.min.js","ext":"./js/朱古力.js","style": {
+                "type": "rect",
+                "ratio": 1.777
+            }
+        },
+
+	
+{"key":"drpy_js_Missav","name":"MissAV","type":3,"api":"./lib/drpy2.min.js","ext":"./js/Missav.js","style": {
+                "type": "rect",
+                "ratio": 1.777
+            }
+        },
+	
+{"key":"Jable","name":"Jable","type":3,"api":"csp_Jable","searchable":1,"recordable":0,"timeout":60,"style":{"type":"rect","ratio":1.77}},
+
+{"key":"Hanime","name":"Hanime","type":3,"api":"csp_Hanime","searchable":1,"recordable":0,"style":{"type":"rect","ratio":0.68}},
+
+     {
+      "key": "量子",
+      "name": "量子",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "伦理片"
+      ]
+    },
+    {
+      "key": "非凡",
+      "name": "非凡",
+      "type": 0,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "伦理片"
+      ]
+{"name":"91md91麻豆","key":"1191麻豆","type":1,"api":"https://91md.me/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+{"name":"91md91麻豆","key":"1191麻豆2","type":1,"api":"https://91md.me/api.php/provide/vod/at/json","searchable":1,"quickSearch":1,"filterable":1},
+{"name":"91md","key":"1191md","type":1,"api":"https://91md.me/api.php/provide/vod/from/mdm3u8/","searchable":1,"quickSearch":1,"filterable":1}
+  }, 
+
+"rules":[
+{"name":"proxy","hosts":["6lhzry.com","cmzy.top","kb17.oneoneno8cd345.xyz","btsow.motorcycles","cj.ffzyapi.com","netflav5.com","thzq.cc","xhamster.com","cableav.tv","mypikpak.com","edge-hls.doppiocdn.com",".*workers.dev","javdb.com","www.javbus.com","d3opspehgd3862dmfdp3sdf.siauliairsavlt.org","vl05t7es.rostelekom.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
+{"name":"磁力廣告","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
+{"name":"量子廣告","hosts":["vip.lz","hd.lz","v.cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]}
+]
+}
