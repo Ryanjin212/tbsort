@@ -362,7 +362,7 @@
         }
       }
     }
-	  ,{"key":"drpy_js_朱古力0","name":"朱古力0","type":3,"api":"./lib/drpy2.min.js","ext":"./js/朱古力.js","style": {
+	  ,{"key":"drpy_js_朱古力","name":"朱古力","type":3,"api":"./lib/drpy2.min.js","ext":"./js/朱古力.js","style": {
                 "type": "rect",
                 "ratio": 1.777
             }
