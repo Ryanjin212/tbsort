@@ -37,6 +37,15 @@
             }
         },
         {
+            "key": "苹果影视",
+            "name": "苹果｜影视",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "热播影视",
             "name": "热播｜APP",
             "type": 3,
@@ -919,15 +928,6 @@
             "name": "奇优｜影视",
             "type": 3,
             "api": "csp_Qiyou"
-        },
-        {
-            "key": "苹果影视",
-            "name": "苹果｜影视",
-            "type": 3,
-            "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "全网影视",
