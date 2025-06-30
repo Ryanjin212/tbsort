@@ -1,5 +1,5 @@
 {
-  "spider": "./lib/GM.jar;md5;875ce871703d1c382e0498711b9d3ba0",
+  "spider": ["./lib/GM.jar;md5;875ce871703d1c382e0498711b9d3ba0","./pg.jar"],	
   "sites": [
 	  {
             "key": "茅台采集",
