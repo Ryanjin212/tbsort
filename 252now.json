@@ -1,17 +1,7 @@
 {
     "spider": "./pg.jar",
     "sites": [
-        {
-            "key": "茅台采集",
-            "name": "茅台采集",
-            "type": 1,
-            "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn/",
-            "searchable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1,"categories":["电影","连续剧","综艺片","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","伦理片"],"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},   
+{"key":"茅台采集","name":"茅台采集","type": 1,"api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn/","searchable": 1,"style": {"type": "rect","ratio": 1.33},"changeable": 1,"categories":["电影","连续剧","综艺片","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","伦理片"],"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},   
 {"key":"量子","name":"影视 | 量子[直连]","jar":"./jar/fan.txt;md5;9b4406d5c1de4d695db13d5f771a835a","type":1,"api":"https://cj.lziapi.com/api.php/provide/vod/","searchable":1,"categories":["伦理片"],"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
 {"key":"非凡","name":"影视 | 非凡[直连]","jar":"./jar/fan.txt;md5;9b4406d5c1de4d695db13d5f771a835a","type":1,"api":"http://ffzy.tv/api.php/provide/vod/","searchable":1,"categories":["伦理片"],"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},    
 {"key":"索尼","name":"影视 | 索尼[直连]","jar":"./jar/fan.txt;md5;9b4406d5c1de4d695db13d5f771a835a","type":0,"api":"https://suoniapi.com/api.php/provide/vod/at/xml/","searchable":1,"categories":["伦理","港台三级","韩国伦理","日本伦理","写真热舞"],"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
