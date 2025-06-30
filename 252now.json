@@ -524,7 +524,11 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
-            "ext": "null$$$https://www.javbus.com$$$noproxy"
+            "ext": "null$$$https://www.javbus.com$$$noproxy",
+            "style": {
+        "type": "rect",
+        "ratio": 1.49
+      }
         },
         {
             "key": "csp_JavDb",
@@ -535,7 +539,11 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
-            "ext": "null$$$https://www.javdb.com$$$noproxy"
+            "ext": "null$$$https://www.javdb.com$$$noproxy",
+            "style": {
+        "type": "rect",
+        "ratio": 1.49
+      }
         },
         {
             "key": "csp_Netflav",
