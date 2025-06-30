@@ -5,7 +5,7 @@
             "key": "py_色播聚合",
             "name": "py_色播聚合",
             "type": 3,
-            "api": "https://tvv.tw/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/py/py_色播聚合.py",
+            "api": "./py/py_色播聚合.py",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -17,7 +17,7 @@
             "type": 3,
             "searchable": 0,
             "api": "./lib/live2vod.js",
-            "ext": "https://tvv.tw/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/json/feimaolive.json"
+            "ext": "./json/feimaolive.json"
         },
         {
             "key": "玩偶",
@@ -57,7 +57,7 @@
             "key": "lav",
             "name": "lav",
             "type": 3,
-            "api": "https://tvv.tw/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/py/py_lav.py",
+            "api": "./py/py_lav.py",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -68,11 +68,11 @@
             "name": "Pornhub",
             "type": 3,
             "api": "csp_XYQHiker",
-            "jar": "https://tvv.tw/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/jar/XYQ.jar",
+            "jar": "./jar/XYQ.jar",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://tvv.tw/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/json/pornhub.json",
+            "ext": "./json/pornhub.json",
             "style": {
                 "type": "rect",
                 "ratio": 1.6,
@@ -186,55 +186,13 @@
             "name": "Netflav",
             "type": 3,
             "api": "csp_Netflav",
-            "jar": "https://tvv.tw/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/jar/netflav.jar",
+            "jar": "./jar/netflav.jar",
             "ext": "noproxy",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 0,
             "timeout": 60
-        },
-        {
-            "key": "TGYunPanLocal",
-            "name": "TG频道搜索",
-            "type": 3,
-            "api": "csp_TGYunPanLocal",
-            "timeout": 120,
-            "ext": {
-                "token": "./lib/tokenm.json",
-                "json": "./lib/tgsearch.json",
-                "keywords": "名称,片名,推荐",
-                "tgsearch_url": "https://tg.252035.xyz",
-                "tgsearch_media_url": "https://tg.252035.xyz",
-                "channellist": "tgsearchers2,alyp_1,guaguale115,hao115,shareAliyun,ucpanpan,ucquark,ydypzyfx,jdjdn1111",
-                "proxy": "noproxy",
-                "danmu": true
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.77
-            }
-        },
-        {
-            "key": "TGYunPan",
-            "name": "TG群组搜索",
-            "type": 3,
-            "api": "csp_TGYunPan",
-            "timeout": 120,
-            "ext": {
-                "token": "./lib/tokenm.json",
-                "json": "./lib/tgsearch.json",
-                "keywords": "名称,片名,推荐",
-                "tgsearch_url": "https://tg.252035.xyz",
-                "tgsearch_media_url": "https://tg.252035.xyz",
-                "channellist": "tgsearchers2",
-                "proxy": "noproxy",
-                "danmu": true
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.77
-            }
         }
     ],
     "lives": [
