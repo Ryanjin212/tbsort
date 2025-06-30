@@ -29,7 +29,7 @@ console.log(JSON.stringify(GM_info));
                 itemList.push({
                     vod_id: url.pathname.split('/').at(2),
                     vod_name: $(this).find(".img").attr("title"),
-                    vod_pic: formatImgUrl($(this).find("img").data("original")),
+                    vod_pic: formatImgUrl($(this).find("img").data("data-original")),
                     vod_remarks: $(this).find(".date").text(),
                     vod_year: $(this).find(".meta").children().remove().end().text()
                 })
