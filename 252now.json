@@ -554,7 +554,18 @@
                 "type": "rect",
                 "ratio": 1.78
             }
-        }
+        },
+        	  {
+    "key": "pttred",
+    "name": "PTT | 影视",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "jar": "./jar/XBPQ.jar",
+    "ext": "./lib/pttred.json"
+}
     ],
     "lives": [
         {
