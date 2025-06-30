@@ -54,7 +54,7 @@
       }
     },
   
-    {
+    {"jar": "./lib/GM.jar;md5;875ce871703d1c382e0498711b9d3ba0",
       "key": "netflav",
       "name": "NETFLAV",
       "type": 3,
@@ -106,7 +106,7 @@
         }
       }
     },
-    {
+    {"jar": "./lib/GM.jar;md5;875ce871703d1c382e0498711b9d3ba0",
       "key": "123av",
       "name": "123AV",
       "type": 3,
@@ -160,7 +160,7 @@
         }
       }
     },
-    {
+    {"jar": "./lib/GM.jar;md5;875ce871703d1c382e0498711b9d3ba0",
       "key": "MissAV",
       "name": "MissAV",
       "type": 3,
@@ -215,7 +215,7 @@
         }
       }
     },
-    {
+    {"jar": "./lib/GM.jar;md5;875ce871703d1c382e0498711b9d3ba0",
       "key": "supjav",
       "name": "Supjav",
       "type": 3,
@@ -285,7 +285,7 @@
         }
       }
     },
-    {
+    {"jar": "./lib/GM.jar;md5;875ce871703d1c382e0498711b9d3ba0",
       "key": "XOJAV",
       "name": "XOJAV",
       "type": 3,
