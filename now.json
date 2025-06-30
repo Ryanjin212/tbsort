@@ -48,7 +48,7 @@
             "changeable": 0,
             "ext": "null$$$https://www.javdb.com$$$noproxy"
         },
-{"key":"麻豆社","name":"麻豆社","spider":"./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c","type":3,"api":"./lib/drpy2.min.js","ext":"./js/madouclub.js","style": {
+{"key":"麻豆社","name":"麻豆社|pg","spider":"./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c","type":3,"api":"./lib/drpy2.min.js","ext":"./js/madouclub.js","style": {
                 "type": "rect",
                 "ratio": 1.777
             }
