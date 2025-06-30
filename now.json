@@ -26,7 +26,29 @@
 {"key":"vv001","name":"️💃女優💃","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05151.json","searchable":0,"quickSearch":0,"filterable":0},
 {"key":"vv002","name":"️👠番號👠","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05152.json","searchable":0,"quickSearch":0,"filterable":0},
 {"key":"vv003","name":"️👙主題👙","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05153.json","searchable":0,"quickSearch":0,"filterable":0},
-{"key":"麻豆社0","name":"麻豆社0","spider":"./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c","type":3,"api":"./lib/drpy2.min.js","ext":"./js/madouclub.js","style": {
+        {
+            "key": "csp_JavBus",
+            "name": "JavBus",
+            "type": 3,
+            "api": "csp_JavBus",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "null$$$https://www.javbus.com$$$noproxy"
+        },
+        {
+            "key": "csp_JavDb",
+            "name": "JavDb",
+            "type": 3,
+            "api": "csp_JavDb",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "null$$$https://www.javdb.com$$$noproxy"
+        },
+{"key":"麻豆社","name":"麻豆社","spider":"./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c","type":3,"api":"./lib/drpy2.min.js","ext":"./js/madouclub.js","style": {
                 "type": "rect",
                 "ratio": 1.777
             }
