@@ -1,7 +1,7 @@
 {
     "spider": "./pg.jar",
     "sites": [
-         {
+         {"jar": "./lib/GM.jar;md5;875ce871703d1c382e0498711b9d3ba0",
       "key": "Jable",
       "name": "Jable",
       "type": 3,
