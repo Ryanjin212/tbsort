@@ -26,7 +26,37 @@
                 "type": "rect",
                 "ratio": 1.777
             }
+        },        
+        {
+            "key": "csp_JavBus",
+            "name": "JavBus",
+            "type": 3,
+            "api": "csp_JavBus",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "null$$$https://www.javbus.com$$$noproxy",
+            "style": {
+        "type": "rect",
+        "ratio": 1.49
+      }
         },
+        {
+            "key": "csp_JavDb",
+            "name": "JavDb",
+            "type": 3,
+            "api": "csp_JavDb",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "null$$$https://www.javdb.com$$$noproxy",
+            "style": {
+        "type": "rect",
+        "ratio": 1.49
+      }
+        }
          {"jar": "./lib/GM.jar;md5;875ce871703d1c382e0498711b9d3ba0",
       "key": "Jable",
       "name": "Jable",
@@ -475,7 +505,7 @@
         },
         {
             "key": "Hanime",
-            "name": "Hanime",
+            "name": "Hanime|pg",
             "type": 3,
             "api": "csp_Hanime",
             "searchable": 1,
@@ -489,7 +519,7 @@
         },
         {
             "key": "18AV",
-            "name": "18AV",
+            "name": "18AV|pg",
             "type": 3,
             "api": "csp_Eighteen",
             "searchable": 1,
@@ -498,12 +528,12 @@
             "ext": "noproxy",
             "style": {
                 "type": "rect",
-                "ratio": 1.485
+                "ratio": 1.78
             }
         },
         {
             "key": "Jable",
-            "name": "Jable",
+            "name": "Jable|pg",
             "type": 3,
             "api": "csp_Jable",
             "searchable": 1,
@@ -512,51 +542,18 @@
             "ext": "noproxy",
             "style": {
                 "type": "rect",
-                "ratio": 1.77
+                "ratio": 1.78
             }
         },
-        {
-            "key": "csp_JavBus",
-            "name": "JavBus",
-            "type": 3,
-            "api": "csp_JavBus",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": "null$$$https://www.javbus.com$$$noproxy",
-            "style": {
-        "type": "rect",
-        "ratio": 1.49
-      }
+        {"key":"drpy_js_Missav","name":"Missav|pg","type":3,"api":"./lib/drpy2.min.js","ext":"./js/Missav.js","style": {
+                "type": "rect",
+                "ratio": 1.78
+            }
         },
-        {
-            "key": "csp_JavDb",
-            "name": "JavDb",
-            "type": 3,
-            "api": "csp_JavDb",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": "null$$$https://www.javdb.com$$$noproxy",
-            "style": {
-        "type": "rect",
-        "ratio": 1.49
-      }
-        },
-        {
-            "key": "csp_Netflav",
-            "name": "Netflav",
-            "type": 3,
-            "api": "csp_Netflav",
-            "jar": "./jar/netflav.jar",
-            "ext": "noproxy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60
+        {"key":"drpy_js_朱古力","name":"朱古力|pg","type":3,"api":"./lib/drpy2.min.js","ext":"./js/朱古力.js","style": {
+                "type": "rect",
+                "ratio": 1.78
+            }
         }
     ],
     "lives": [
