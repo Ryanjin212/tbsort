@@ -393,7 +393,7 @@
             }
         },
 	
-{"key":"drpy_js_Missav0","name":"MissAV0","type":3,"api":"./lib/drpy2.min.js","ext":"./js/Missav.js","style": {
+{"key":"drpy_js_Missav","name":"Missav|pg","type":3,"api":"./lib/drpy2.min.js","ext":"./js/Missav.js","style": {
                 "type": "rect",
                 "ratio": 1.777
             }
