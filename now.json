@@ -28,7 +28,7 @@
 {"key":"vv003","name":"️👙主題👙","type":4,"api":"https://raw.githubusercontent.com/c120487/00/main/api/00title05153.json","searchable":0,"quickSearch":0,"filterable":0},
         {
             "key": "csp_JavBus",
-            "name": "JavBus",
+            "name": "JavBus", "spider": "./jar/pg.jar",
             "type": 3,
             "api": "csp_JavBus",
             "searchable": 1,
@@ -39,7 +39,7 @@
         },
         {
             "key": "csp_JavDb",
-            "name": "JavDb",
+            "name": "JavDb", "spider": "./jar/pg.jar",
             "type": 3,
             "api": "csp_JavDb",
             "searchable": 1,
