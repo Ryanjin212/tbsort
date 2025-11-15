@@ -1,6 +1,6 @@
 var rule = {
     title:'麻豆社',
-    host:'https://madou.club',
+    host:'https://madou.uk',
     url:'/category/fyclass/page/fypage',
 	homeUrl:'/category/fyclass',
     headers:{
