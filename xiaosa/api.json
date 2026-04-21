@@ -55,6 +55,17 @@
             "api": "csp_App3Q"
         },
         {
+  "key": "新韩剧网",
+  "name": "新韩剧网(py)",
+  "type": 3,
+  "api": "./py/新韩剧网.min.py",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 0,
+  "changeable": 0,
+  "ext": {}
+        },
+        {
             "key": "韩圈",
             "name": "韩圈｜APP",
             "type": 3,
