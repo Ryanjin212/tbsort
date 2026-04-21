@@ -57,7 +57,7 @@
 
 {
   "key": "新韩剧网",
-  "name": "新韩剧网(py)",
+  "name": "新韩剧网",
   "type": 3,
   "api": "./py/新韩剧网.min.py",
   "searchable": 1,
