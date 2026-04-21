@@ -57,7 +57,7 @@
             },
             "timeout": 30
         },
-        {   "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+         {  "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "key": "瓜子",
             "name": "🍉瓜子┃弹幕",
             "type": 3,
@@ -72,7 +72,7 @@
             },
             "timeout": 10
         },
-        {   "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+         {  "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "key": "文才",
             "name": "🌺文才┃弹幕",
             "type": 3,
@@ -133,8 +133,7 @@
             },
             "timeout": 10
         },
-        {  
- "jar": "./pro.jar",
+         {  "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "key": "独播弹幕版",
             "name": "👠独播┃弹幕",
             "type": 3,
@@ -149,7 +148,7 @@
             },
             "timeout": 10
         },
-        {   "jar": "./ok.jar",
+         {  "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "key": "厂长弹幕版",
             "name": "📔厂长┃弹幕",
             "type": 3,
@@ -164,7 +163,7 @@
             },
             "timeout": 10
         },
-        {   "jar": "./王二小.jar",
+         {  "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
             "key": "csp_Btt",
             "name": "🌞比特┃弹幕",
             "type": 3,
