@@ -73,6 +73,18 @@
             "api": "csp_Hxq",
             "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
         },
+
+        {
+  "key": "低端影视",
+  "name": "低端影视",
+  "type": 3,
+  "api": "./py/低端影视.py",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 0,
+  "changeable": 0,
+  "ext": {}
+   },
         {
             "key": "天堂",
             "name": "天堂｜APP",
