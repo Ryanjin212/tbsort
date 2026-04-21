@@ -23,18 +23,31 @@
                 "ratio": 1.597
             }
         },
-        {
-            "key": "本地",
-            "name": "本地｜视频",
-            "type": 3,
-            "api": "csp_LocalFile"
-        },
+
         {
             "key": "预告",
             "name": "新片｜预告",
             "type": 3,
             "api": "csp_YGP",
             "searchable": 0
+        },
+        {
+  "key": "新韩剧网",
+  "name": "新韩剧网",
+  "type": 3,
+  "api": "./py/新韩剧网.min.py",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 0,
+  "changeable": 0,
+  "ext": {}
+   },
+        {
+            "key": "韩圈",
+            "name": "韩圈｜APP",
+            "type": 3,
+            "api": "csp_Hxq",
+            "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
         },
         {
             "key": "热播影视",
@@ -55,24 +68,7 @@
             "api": "csp_App3Q"
         },
 
-{
-  "key": "新韩剧网",
-  "name": "新韩剧网",
-  "type": 3,
-  "api": "./py/新韩剧网.min.py",
-  "searchable": 1,
-  "quickSearch": 0,
-  "filterable": 0,
-  "changeable": 0,
-  "ext": {}
-   },
-        {
-            "key": "韩圈",
-            "name": "韩圈｜APP",
-            "type": 3,
-            "api": "csp_Hxq",
-            "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
-        },
+
 
         {
   "key": "低端影视",
