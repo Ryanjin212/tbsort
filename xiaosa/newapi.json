@@ -52,6 +52,20 @@
             "api": "csp_Hxq",
             "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
         },
+        { "jar": "./jar/1.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "key": "文才",
+            "name": "🌺文才┃在线",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "sp": "Jpys"
+            },
+            "timeout": 10
+        },
         {
             "key": "热播影视",
             "name": "热播｜APP",
