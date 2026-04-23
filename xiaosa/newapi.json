@@ -67,6 +67,36 @@
             "timeout": 10
         },
         {
+            "jar": "./1.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "key": "七味",
+            "name": "七味┃在线",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "sp": "QiWei"
+            },
+            "timeout": 30
+        },
+        {
+            "jar": "./1.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "key": "糯米",
+            "name": "🍓糯米┃秒播",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "sp": "Nmys"
+            },
+            "timeout": 10
+        },
+        {
             "key": "热播影视",
             "name": "热播｜APP",
             "type": 3,
@@ -77,6 +107,21 @@
             "ext": {
                 "url": "http://v.rbotv.cn"
             }
+        },
+        {
+            "jar": "./1.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "key": "奇奇",
+            "name": "奇奇┃App",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": {
+                "sp": "QiQi"
+            },
+            "timeout": 10
         },
         {
             "key": "三秋影视",
