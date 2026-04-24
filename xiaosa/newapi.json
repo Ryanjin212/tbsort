@@ -1236,7 +1236,7 @@
             "name": "百度｜网盘",
             "type": 3,
             "api": "csp_PanBaidu",
-            "searchable": 0,
+            "searchable": 1,
             "filterable": 0,
             "changeable": 0,
             "style": {
@@ -1265,7 +1265,7 @@
             "ext": {
                 "sp": "AiPan"
             },
-            "timeout": 25
+            "timeout": 60
         },
         {
             "key": "糖果",
