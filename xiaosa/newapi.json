@@ -1254,6 +1254,19 @@
             "filterable": 0,
             "timeout": 60
         },
+        {    "jar": "./1.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+            "key": "爱盘",
+            "name": "❤️爱盘┃搜索",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "sp": "AiPan"
+            },
+            "timeout": 25
+        },
         {
             "key": "糖果",
             "name": "糖果｜搜索",
