@@ -885,6 +885,17 @@
             "api": "csp_Duboku"
         },
         {
+            "key": "123TV.py",
+            "name": "123TV｜影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./py/123TV.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
             "key": "厂长影视",
             "name": "厂长｜影视",
             "type": 3,
