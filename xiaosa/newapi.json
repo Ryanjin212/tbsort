@@ -1,6 +1,6 @@
 {
 
- "spider": "./spider.jar",
+ "spider": "https://ok.sports.de5.net/spider/okfix2.png;md5;1C2485E74639B925E563A4D603BE2C3D",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
