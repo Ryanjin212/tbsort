@@ -23,7 +23,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-        "api": "./py/134X.py"
+        "api": "./sy/134X.py"
     },
 
 
@@ -34,7 +34,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-        "api": "./py/教授.py"
+        "api": "./sy/教授.py"
     },
 
     {
@@ -44,7 +44,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-        "api": "./py/黄豆.py"
+        "api": "./sy/黄豆.py"
     },
 
 {  
@@ -54,7 +54,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "api": "./py/黄果.py"
+            "api": "./sy/黄果.py"
          
         },
         
@@ -65,7 +65,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "api": "./py/真果鉴.py",
+            "api": "./sy/真果鉴.py",
             "order_num": 5
 
         },
@@ -413,7 +413,7 @@
             "key": "Chaturbate.py",
             "name": "Chaturbate｜直播",
             "type": 3,
-            "api": "./py/Chaturbate.py",
+            "api": "./sy/Chaturbate.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -434,7 +434,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "api": "./PY1/Xvideos.py",
+            "api": "./sy/Xvideos.py",
             "order_num": 5,
             "ext": ""
         },
@@ -445,7 +445,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "api": "./PY1/pornhub.py",
+            "api": "./sy/pornhub.py",
             "order_num": 5,
             "ext": ""
         },
@@ -456,7 +456,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "api": "./PY1/Xhamster.py",
+            "api": "./sy/Xhamster.py",
             "order_num": 5,
             "ext": ""
         }
