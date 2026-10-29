@@ -149,7 +149,11 @@
       "type": 3,
       "api": "csp_枫叶",
       "homePage": "./html/枫叶.html",
-      "searchable": 1
+      "searchable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.48
+      }
     },
     {
     "key": "蜻蜓FM",
