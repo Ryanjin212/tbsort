@@ -124,6 +124,15 @@
             "filterable": 1,
             "changeable": 0
         },  
+                      { "key": "合音乐",
+            "name": "合音乐 • 音乐",
+            "type": 3,
+            "api": "./py/音乐聚合.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        }, 
     {
     "key": "juheyinyue",
     "name": "聚合音乐 • 音乐",
