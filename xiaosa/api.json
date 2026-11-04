@@ -124,25 +124,7 @@
             "filterable": 1,
             "changeable": 0
         },  
-                      { "key": "合音乐",
-            "name": "合音乐 • 音乐",
-            "type": 3,
-            "api": "./py/音乐聚合.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0
-        }, 
-    {
-    "key": "juheyinyue",
-    "name": "聚合音乐 • 音乐",
-    "type": 3,
-    "api": "csp_juheyinyue",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-   "jar": "./jar/聚合音乐.jar"            
-},
+                     
     {"key": "哔哩哔哩音乐","name": "哔哩 • MV","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"changeable": 0,"ext": {"n": "哔哩音乐","cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"},"style": {"type": "rect","ratio": 1.618}},
     {"key": "哔哩哔哩听书","name": "哔哩 • 听书","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"changeable": 0,"ext": {"n": "哔哩听书","cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"},"style": {"type": "rect","ratio": 1.618}},
     {"key": "哔哩哔哩相声","name": "哔哩 • 相声","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"changeable": 0,"ext": {"n": "哔哩相声","cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"},"style": {"type": "rect","ratio": 1.618}},
@@ -160,7 +142,11 @@
     
   ],
   "lives": [
-    {}
+   {
+            "name": "IPTV",
+            "type": 0,
+            "url": "./udpiptv.m3u"
+        }
   ],
   "parses": [
     {"name": "聚合","type": 3,"url": "Web"},
