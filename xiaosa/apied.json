@@ -254,18 +254,7 @@
 
         {"key": "配置中心","name": "配置 • 中心","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.618}},
     {"key": "本地","name": "本地 • 视频","type": 3,"api": "csp_LocalFile"},
-    {"key": "push_agent","name": "手机 • 推送","type": 3,"api": "csp_Push","searchable": 0,"filterable": 0,"changeable": 0,"hide": 1},
-    {
-            "key": "资源管理",
-            "name": "资源管理",
-            "type": 3,
-            "api": "./py/资源管理.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {}
-       }
+    {"key": "push_agent","name": "手机 • 推送","type": 3,"api": "csp_Push","searchable": 0,"filterable": 0,"changeable": 0,"hide": 1}
 
   ],
   "lives": [
