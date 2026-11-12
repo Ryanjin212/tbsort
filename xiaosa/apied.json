@@ -21,7 +21,17 @@
    {"key": "韩圈","name": "韩圈 • APP","type": 3,"api": "csp_Hxq"},
 
 
-    
+    {
+            "key": "五大平台",
+            "name": "五大平台",
+            "type": 3,
+            "api": "./py/五大平台.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
 
 
     
